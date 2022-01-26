@@ -1,0 +1,24 @@
+{
+  "name": "git-test-t2",
+  "version": "1.0.0",
+  "description": "this is git",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tindt97@bitbucket.org/tindt97/git-test.git"
+  },
+  "author": "trungtindai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/tindt97/git-test/issues"
+  },
+  "homepage": "https://bitbucket.org/tindt97/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
